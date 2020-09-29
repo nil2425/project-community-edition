@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Assignment1\HelloWorld\Controller\Page;
+namespace Assignment2\HelloWorld\Controller\Page;
 
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\Controller\ResultFactory;

@@ -4,8 +4,8 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_config
     <body>
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template"
-                   name="assignment1.example"
-                   template="Assignment1_HelloWorld::example.phtml" />
+                   name="assignment2.example"
+                   template="Assignment2_HelloWorld::example.phtml" />
         </referenceContainer>
     </body>
 </page>
