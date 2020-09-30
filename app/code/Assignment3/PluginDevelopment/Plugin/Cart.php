@@ -15,7 +15,7 @@ class Cart
     $productInfo,
     $requestInfo=null)
     {
-        $requestInfo['price']=$requestInfo['price']+100;
+        $requestInfo['price']=$requestInfo['price']+50;
         return array($productInfo, $requestInfo);
     }
 }
