@@ -1,0 +1,8 @@
+<config>
+  <type name="Magento\Checkout\Model\Cart">
+    <plugin name="change_price_after_addToCart" type="Assignment3\PluginDevelopment\Plugin\Cart" sortOrder="1"/>
+  </type>
+   <!-- <type name="Magento\Catalog\Model\Product">
+            <plugin name="change_product_price" type="Assignment3\PluginDevelopment\Plugin\Product" sortOrder="1" />
+     </type> -->
+</config>
