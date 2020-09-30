@@ -11,7 +11,7 @@ class Cart
     //     $requestInfo['qty']=5;
     //     return array($productInfo, $requestInfo);
     // }
-    public function beforeAddProduct(\Magento\Checkout\Model\Cart $subject, 
+    public function afterAddProduct(\Magento\Checkout\Model\Cart $subject, 
     $productInfo,
     $requestInfo=null)
     {
