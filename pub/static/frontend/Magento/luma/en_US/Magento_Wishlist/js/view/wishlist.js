@@ -1,0 +1,1 @@
+/var/www/project-community-edition/vendor/magento/module-wishlist/view/frontend/web/js/view/wishlist.js

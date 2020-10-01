@@ -1,0 +1,1 @@
+/var/www/project-community-edition/vendor/magento/module-catalog/view/frontend/web/js/product/storage/ids-storage.js
