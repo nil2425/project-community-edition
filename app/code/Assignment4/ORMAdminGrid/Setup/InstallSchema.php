@@ -29,14 +29,14 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
                 ->addColumn(
                     'phone_no',
                     \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
-                    '64k',
+                    255,
                     ['nullable => false'],
                     'Phone Number'
                 )
                 ->addColumn(
                     'message',
                     \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
-                    '64k',
+                    255,
                     ['nullable => false'],
                     'Message'
                 )
