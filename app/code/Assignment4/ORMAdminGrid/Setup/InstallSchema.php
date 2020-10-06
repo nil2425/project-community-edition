@@ -13,6 +13,13 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
                 $installer->getTable('assignment4_contactus')
             )
                 ->addColumn(
+                    'user_id',
+                    \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
+                    null,
+                    ['identity' => true, 'unsigned' => true, 'nullable' => false, 'primary' => true],
+                    'User Id'
+                )
+                ->addColumn(
                     'name',
                     \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                     255,
@@ -36,7 +43,7 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
                 ->addColumn(
                     'message',
                     \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
-                    255,
+                    225,
                     ['nullable => false'],
                     'Message'
                 )
