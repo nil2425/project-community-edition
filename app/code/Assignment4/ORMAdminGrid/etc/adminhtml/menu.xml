@@ -2,8 +2,8 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="PHPCuong_BannerSlider::banners_slider" title="BannerSlider" translate="title" module="Assignment4_ORMAdminGrid" sortOrder="20" resource="PHPCuong_BannerSlider::banners_slider"/>
-        <add id="PHPCuong_BannerSlider::all_banners" title="All Banners" translate="title" module="Assignment4_ORMAdminGrid" sortOrder="10" resource="PHPCuong_BannerSlider::all_banners" parent="PHPCuong_BannerSlider::banners_slider" action="phpcuong_banners_slider/banner/index"/>
-        <add id="PHPCuong_BannerSlider::all_groups" title="All Groups" translate="title" module="Assignment4_ORMAdminGrid" sortOrder="10" resource="PHPCuong_BannerSlider::all_groups" parent="PHPCuong_BannerSlider::banners_slider" action="phpcuong_banners_slider/group/index"/>
+        <add id="Assignment4_ORMAdminGrid::contact" title="Contact" translate="title" module="Assignment4_ORMAdminGrid" sortOrder="20" resource="Assignment4_ORMAdminGrid::contact"/>
+        <add id="Assignment4_ORMAdminGrid::contact_us" title="Contact us" translate="title" module="Assignment4_ORMAdminGrid" sortOrder="10" resource="Assignment4_ORMAdminGrid::contact_us" parent="Assignment4_ORMAdminGrid::contact"/>
+        <add id="Assignment4_ORMAdminGrid::all_contact" title="All Contact" translate="title" module="Assignment4_ORMAdminGrid" sortOrder="10" resource="Assignment4_ORMAdminGrid::all_contact" parent="Assignment4_ORMAdminGrid::contact_us" action="assignment4contacteddetails/contacted/index"/>
     </menu>
 </config>
